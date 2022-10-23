@@ -32,7 +32,7 @@ Using the cloud ETL process, an AWS RDS database with tables in pgAdmin will be 
   - ![image](https://user-images.githubusercontent.com/108038989/197368811-b050063a-c02d-4e51-9877-b878a5333a58.png)
 
 ### Deliverable 2: Determine Bias of Vine Reviews
-Using PySpark, Pandas, or SQL, we’ll determine if there is any bias towards reviews that were written as part of the Vine program. For this analysis, we'll determine if having a paid Vine review makes a difference in the percentage of 5-star reviews.
+Using PySpark, Pandas, or SQL, we’ll determine if there is any bias towards reviews that were written as part of the Vine program. For this analysis, we'll determine if having a paid Vine review makes a difference in the percentage of 5-star reviews. The completed Vine_Review_Analysis Google Colab notebook can be referenced [here](https://github.com/lkachury/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb)
 
 1. There is a DataFrame or table for the vine_table data using one of three methods above:
 <br /> ![image](https://user-images.githubusercontent.com/108038989/197371706-2e85bfe0-c470-4aae-b992-9a10758cfaaa.png)

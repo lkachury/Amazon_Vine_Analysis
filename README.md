@@ -56,7 +56,8 @@ Using PySpark, Pandas, or SQL, we’ll determine if there is any bias towards re
     - ![image](https://user-images.githubusercontent.com/108038989/197377421-1cd62fb6-c002-4c05-a5af-4b464a38f121.png)
 
 ## Summary 
-In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+The purpose of this analysis was to determine if there was any bias toward favorable reviews from Vine members in the selected Amazon Review dataset. The dataset was filtered and a new DataFrame was created that displayed all the rows where the total_votes count was equal to or greater than 20 to pick reviews that were more likely to be helpful and to avoid having division by zero errors. This new DataFrame was filtered and a new DataFrame was created that displayed all the rows where the number of helpful_votes divided by total_votes is equal to or greater than 50%. 
 
-1. The summary states whether or not there is bias, and the results support this statement 
-2. An additional analysis is recommended to support the statement
+From the analysis performed in Deliverable 2 above, the percentage of 5 stars Non-Vine (Unpaid) reviews is 60.15% while the percentage of 5 stars Vine (Paid) reviews is 0%. Since 5 stars Non-Vine reviews have a higher percentage than 5 stars Vine reviews, the results indicate that there is no positivity bias for reviews in the Vine program.  
+
+One additional analysis that is recommedned with the dataset to support this statement is to perform percentage calculations for the remaining star ratings. Based on the Deliverable 2 results above, the remaining star rating comprise roughly 40% of the data and we might expect to see similar rsults between the Vine (Paid) and Non-Vine (Unpaid) reviews of star ratings 1 through 4.

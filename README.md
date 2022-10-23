@@ -50,13 +50,10 @@ Using PySpark, Pandas, or SQL, we’ll determine if there is any bias towards re
 5. The data is filtered to create a DataFrame or table where there isn’t a Vine review:
 <br /> ![image](https://user-images.githubusercontent.com/108038989/197371819-2dca8afd-f023-4e6a-a0b1-46149241cc6c.png)
 
-6. The total number of reviews, the number of 5-star reviews, and the percentage 5-star reviews are calculated for all Vine and non-Vine reviews:
-
-### Deliverable 3: A Written Report on the Analysis
-
-1. How many Vine reviews and non-Vine reviews were there?
-2. How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+6. The total number of reviews, the number of 5-star reviews, and the percentage 5-star reviews are calculated for all Vine (Paid) and non-Vine (Unpaid) reviews:
+    - ![image](https://user-images.githubusercontent.com/108038989/197377396-001cdaee-81db-4e77-bc1c-0a46c2b1796d.png)
+    - ![image](https://user-images.githubusercontent.com/108038989/197377406-e584676b-b025-4211-9744-532182490775.png)
+    - ![image](https://user-images.githubusercontent.com/108038989/197377421-1cd62fb6-c002-4c05-a5af-4b464a38f121.png)
 
 ## Summary 
 In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.

@@ -15,7 +15,7 @@ Since the work with the SellBy project was so successful, we will now be analyzi
 
 ## Results
 ### Deliverable 1: Perform ETL on Amazon Product Reviews
-Using the cloud ETL process, an AWS RDS database with tables in pgAdmin will be created, a dataset from the [Amazon Review datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt) will be picked and extracted into a DataFrame. The DataFrame will be transformed into four separate DataFrames that match the table schema in pgAdmin. Then, the transformed data will be uploaded into the appropriate tables and queries will be run in pgAdmin to confirm that the data has been uploaded.
+Using the cloud ETL process, an AWS RDS database with tables in pgAdmin will be created, a dataset from the [Amazon Review datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt) will be picked and extracted into a DataFrame. The DataFrame will be transformed into four separate DataFrames that match the table schema in pgAdmin. Then, the transformed data will be uploaded into the appropriate tables and queries will be run in pgAdmin to confirm that the data has been uploaded. The completed Amazon_Reviews_ETL Google Colab notebook can be referenced [here](https://github.com/lkachury/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb).
 
 1. An Amazon Review dataset is extracted as a DataFrame: <br /> ![image](https://user-images.githubusercontent.com/108038989/197368910-2cda65d4-d91d-466f-a3af-5759b7b98a65.png)
 

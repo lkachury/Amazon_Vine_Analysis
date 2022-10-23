@@ -4,11 +4,13 @@
 
 ## Resources
 ### Data Source 
-- 
+-  Amazon Review [Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
+    - Amazon [Book Reviews](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz)
 
 ### Software
-- 
-
+- PostgreSQL and pgAdmin 6.8
+- Google Colaboratory and Python 3.7.6
+- Visual Studio Code 1.69
 
 ## Results
 ### Deliverable 1: Perform ETL on Amazon Product Reviews
@@ -19,7 +21,10 @@ Using the cloud ETL process, an AWS RDS database with tables in pgAdmin will be 
 2. The extracted dataset is transformed into four DataFrames with the correct columns:
 
 3. All four DataFrames are loaded into their respective tables in pgAdmin:
-
+  - ![image](https://user-images.githubusercontent.com/108038989/197367003-4fd169b0-3a8b-4dbd-857c-4f8b211fbfa9.png)
+  - ![image](https://user-images.githubusercontent.com/108038989/197367106-6a304499-a719-4f02-91d2-848a7dac8cbc.png)
+  - ![image](https://user-images.githubusercontent.com/108038989/197367397-8010e696-4230-4b65-87d5-79c825f419be.png)
+  - ?
 
 ### Deliverable 2: Determine Bias of Vine Reviews
 Using PySpark, Pandas, or SQL, we’ll determine if there is any bias towards reviews that were written as part of the Vine program. For this analysis, we'll determine if having a paid Vine review makes a difference in the percentage of 5-star reviews.

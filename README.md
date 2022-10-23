@@ -17,9 +17,13 @@ Since the work with the SellBy project was so successful, we will now be analyzi
 ### Deliverable 1: Perform ETL on Amazon Product Reviews
 Using the cloud ETL process, an AWS RDS database with tables in pgAdmin will be created, a dataset from the [Amazon Review datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt) will be picked and extracted into a DataFrame. The DataFrame will be transformed into four separate DataFrames that match the table schema in pgAdmin. Then, the transformed data will be uploaded into the appropriate tables and queries will be run in pgAdmin to confirm that the data has been uploaded.
 
-1. An Amazon Review dataset is extracted as a DataFrame:
+1. An Amazon Review dataset is extracted as a DataFrame: <br /> ![image](https://user-images.githubusercontent.com/108038989/197368910-2cda65d4-d91d-466f-a3af-5759b7b98a65.png)
 
 2. The extracted dataset is transformed into four DataFrames with the correct columns:
+  - ![image](https://user-images.githubusercontent.com/108038989/197368941-64710340-7026-4639-8db2-524d1d42ab72.png)
+  - ![image](https://user-images.githubusercontent.com/108038989/197368951-7f9e722b-8b4a-4740-b776-f9eb6031fe1a.png)
+  - ![image](https://user-images.githubusercontent.com/108038989/197368960-03de0ff5-efdb-4d31-9a0f-12c72fbf4165.png)
+  - ![image](https://user-images.githubusercontent.com/108038989/197368965-2e0d1521-73fd-4c34-8e35-5d8c497b5e97.png)
 
 3. All four DataFrames are loaded into their respective tables in pgAdmin:
   - ![image](https://user-images.githubusercontent.com/108038989/197367003-4fd169b0-3a8b-4dbd-857c-4f8b211fbfa9.png)

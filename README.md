@@ -51,7 +51,6 @@ Using PySpark, Pandas, or SQL, we’ll determine if there is any bias towards re
 <br /> ![image](https://user-images.githubusercontent.com/108038989/197371819-2dca8afd-f023-4e6a-a0b1-46149241cc6c.png)
 
 6. The total number of reviews, the number of 5-star reviews, and the percentage 5-star reviews are calculated for all Vine and non-Vine reviews:
-    - 
 
 ### Deliverable 3: A Written Report on the Analysis
 

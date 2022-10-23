@@ -35,16 +35,22 @@ Using the cloud ETL process, an AWS RDS database with tables in pgAdmin will be 
 Using PySpark, Pandas, or SQL, we’ll determine if there is any bias towards reviews that were written as part of the Vine program. For this analysis, we'll determine if having a paid Vine review makes a difference in the percentage of 5-star reviews.
 
 1. There is a DataFrame or table for the vine_table data using one of three methods above:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/197371706-2e85bfe0-c470-4aae-b992-9a10758cfaaa.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/197371722-4618708a-947a-4b45-9a09-85a5fa44936e.png)
 
 2. The data is filtered to create a DataFrame or table where there are 20 or more total votes:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/197371736-7f8f093c-1ae3-4a41-8cb1-d6a0de789355.png)
 
 3. The data is filtered to create a DataFrame or table where the percentage of helpful_votes is equal to or greater than 50%:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/197371749-41ced94c-6333-4609-af59-77dbba2a9a66.png)
 
 4. The data is filtered to create a DataFrame or table where there is a Vine review:
 
 5. The data is filtered to create a DataFrame or table where there isn’t a Vine review:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/197371819-2dca8afd-f023-4e6a-a0b1-46149241cc6c.png)
 
 6. The total number of reviews, the number of 5-star reviews, and the percentage 5-star reviews are calculated for all Vine and non-Vine reviews:
+    - 
 
 ### Deliverable 3: A Written Report on the Analysis
 

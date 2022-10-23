@@ -45,6 +45,7 @@ Using PySpark, Pandas, or SQL, we’ll determine if there is any bias towards re
 <br /> ![image](https://user-images.githubusercontent.com/108038989/197371749-41ced94c-6333-4609-af59-77dbba2a9a66.png)
 
 4. The data is filtered to create a DataFrame or table where there is a Vine review:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/197371999-8c797b00-a99d-4d0b-b8b3-985df1b71936.png)
 
 5. The data is filtered to create a DataFrame or table where there isn’t a Vine review:
 <br /> ![image](https://user-images.githubusercontent.com/108038989/197371819-2dca8afd-f023-4e6a-a0b1-46149241cc6c.png)

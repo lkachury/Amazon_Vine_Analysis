@@ -1,6 +1,7 @@
 # Amazon_Vine_Analysis
 
 ## Overview 
+Since the work with the SellBy project was so successful, we will now be analyzing Amazon reviews written by members of the paid Amazon Vine program in order to present it to the SellBy stakeholders. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review. The Amazon Review Datasets consists of approximately 50 datasets and each contains reviews of a specific product, from clothing apparel to wireless products. For this analysis, we will select one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Then, PySpark, Pandas, or SQL will be used to determine if there is any bias toward favorable reviews from Vine members in the selected dataset. 
 
 ## Resources
 ### Data Source 
@@ -24,7 +25,7 @@ Using the cloud ETL process, an AWS RDS database with tables in pgAdmin will be 
   - ![image](https://user-images.githubusercontent.com/108038989/197367003-4fd169b0-3a8b-4dbd-857c-4f8b211fbfa9.png)
   - ![image](https://user-images.githubusercontent.com/108038989/197367106-6a304499-a719-4f02-91d2-848a7dac8cbc.png)
   - ![image](https://user-images.githubusercontent.com/108038989/197367397-8010e696-4230-4b65-87d5-79c825f419be.png)
-  - ?
+  - ![image](https://user-images.githubusercontent.com/108038989/197368685-d0a34f69-c244-45cb-b4b6-272a173d3974.png)
 
 ### Deliverable 2: Determine Bias of Vine Reviews
 Using PySpark, Pandas, or SQL, we’ll determine if there is any bias towards reviews that were written as part of the Vine program. For this analysis, we'll determine if having a paid Vine review makes a difference in the percentage of 5-star reviews.
